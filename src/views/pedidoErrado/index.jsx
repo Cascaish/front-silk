@@ -3,16 +3,13 @@ import './index.scss';
 import EstilosRoupas from '../../core/components/estilosRoupas';
 import Rodape from '../../core/components/rodape';
 
-import { register } from 'swiper/element/bundle';
-import { Swiper, SwiperSlide } from 'swiper/react';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'aos/dist/aos.css'
+
+
+
 import FaleConosco from '../../core/components/faleConosco';
 
-register();
+
 
 export default function PedidoErrado(){
 

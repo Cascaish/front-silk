@@ -1,14 +1,12 @@
 import './index.scss';
 
 import { Link } from 'react-router-dom';
-import { register } from 'swiper/element/bundle';
-import { Swiper, SwiperSlide } from 'swiper/react';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'aos/dist/aos.css';
-import aos from 'aos';
+
+
+
+
+
 
 import Cabecalho from '../../core/components/cabecalho';
 import Infos from '../../core/components/infos';
@@ -16,8 +14,7 @@ import Rodape from '../../core/components/rodape';
 import CompInicio from '../../core/components/compInicio';
 import React, { Suspense, lazy } from 'react';
 
-register();
-aos.init();
+
 
 export default function Inicio(){
 
