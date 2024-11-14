@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import '../../scss/colors.scss';
 
 .header-main-container {
@@ -35,4 +36,43 @@
       border-radius: 20px;
     }
   }
+=======
+@import '../../scss/colors.scss';
+
+.header-main-container {
+  padding: 16px;
+  position: relative;
+  top: 0;
+  background-color: $foreground;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  box-shadow: 10px 4px 10px 3px #0000003b;
+
+  &>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .text {
+      text-align: right;
+    }
+
+    .rouded-user {
+      background-color: palegreen;
+      height: 45px;
+      width: 45px;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    button {
+      background-color: $secondary;
+      padding: 8px 25px;
+      border-radius: 20px;
+    }
+  }
+>>>>>>> fa7c29557efb1bc4884a0d8dc2c05fed89e4dab8
 }

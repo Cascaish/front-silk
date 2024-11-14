@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import '../../scss/colors.scss';
 
 .title-container-main {
@@ -21,4 +22,29 @@
     width: fit-content;
     cursor: pointer;
   }
+=======
+@import '../../scss/colors.scss';
+
+.title-container-main {
+  display: flex;
+  flex-direction: column;
+  // gap: 4px;
+
+  h1 {
+    color: $secondary;
+    font-size: 38px;
+  }
+
+  h5 {
+    color: $primary;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  button {
+    all: unset;
+    width: fit-content;
+    cursor: pointer;
+  }
+>>>>>>> fa7c29557efb1bc4884a0d8dc2c05fed89e4dab8
 }

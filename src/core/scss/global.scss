@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import './colors.scss';
 
 body {
@@ -34,4 +35,42 @@ code {
     flex-direction: column;
     gap: 20px
   }
+=======
+@import './colors.scss';
+
+body {
+  background-color: $background;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-listar {
+  width: 85%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+
+  &>div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+  }
+>>>>>>> fa7c29557efb1bc4884a0d8dc2c05fed89e4dab8
 }
